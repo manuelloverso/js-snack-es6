@@ -20,7 +20,8 @@ squadreDiCalcio.forEach((squadra) => {
 });
 
 const noPoints = squadreDiCalcio.map((squadra) => {
-  let nuovaSquadra = { nome: squadra.nome, falliSubiti: squadra.falliSubiti };
+  const { nome, falliSubiti } = squadra;
+  let nuovaSquadra = { nome, falliSubiti };
   return nuovaSquadra;
 });
 console.log(noPoints);
