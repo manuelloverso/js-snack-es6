@@ -36,4 +36,4 @@ zucchine.forEach((zucchina) => {
   pesoTot += zucchina.peso;
 });
 
-console.log(pesoTot);
+console.log(pesoTot + "kg");
