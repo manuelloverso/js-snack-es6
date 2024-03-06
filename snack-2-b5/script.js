@@ -30,15 +30,10 @@ const zucchine = [
   },
 ];
 
-const lessThan15 = zucchine.filter((zucchina) => {
-  return zucchina.lunghezza <= 15;
-});
-
+const lessThan15 = zucchine.filter((zucchina) => zucchina.lunghezza <= 15);
 console.log(lessThan15);
 
-const moreThan15 = zucchine.filter((zucchina) => {
-  return zucchina.lunghezza > 15;
-});
+const moreThan15 = zucchine.filter((zucchina) => zucchina.lunghezza > 15);
 console.log(moreThan15);
 
 let pesoMin15 = 0;
