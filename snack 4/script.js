@@ -26,3 +26,7 @@ const guidatori = persone.map((persona) => {
   }`;
 });
 console.log(guidatori);
+
+const people = ["manuel", "pippo", "pluto"];
+const manuel = people[1];
+console.log(manuel);
